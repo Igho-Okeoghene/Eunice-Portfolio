@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dongle&display=swap");
+:root {
+  --pink: F9E4D4;
+  --brown: D67D3E;
+  --purple: 9c0f48;
+  --deeppurple: rgb(71, 13, 33);
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  color: black;
+}
+/*Mobile CSS*/
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 1rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+nav ul li {
+  padding-right: 1rem;
+  font-weight: 700;
+}
+a {
+  text-decoration: none;
+}
+header {
+  text-align: center;
+  background-color: #333;
+  padding: 5rem 1rem;
+  margin-bottom: 4rem;
+}
+h1 {
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: white;
+  padding-bottom: 2rem;
+}
+header a {
+  font-size: 0.8rem;
+  color: white;
+  border: 1px solid white;
+  padding: 0.5rem;
+}
+header a i {
+  font-size: 0.7rem;
+  color: white;
+  padding-left: 0.2rem;
+}
+section {
+  padding: 3rem 1rem 0rem 1rem;
+}
+h2 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+hr {
+  margin: 0 auto;
+  width: 5rem;
+  color: #333;
+}
+.vector {
+  text-align: center;
+}
+section img {
+  width: 15rem;
+  padding: 3rem 0;
+}
+section p {
+  text-align: left;
+  padding: 0.5rem 0;
+}
+.quote {
+  background-color: #333;
+  color: white;
+  padding: 3rem 2rem;
+  margin: 1rem 0 4rem 0;
+  text-align: center;
+}
+.quote blockquote,
+.quote cite {
+  color: white;
+  font-style: italic;
+}
+article {
+  padding: 2rem;
+}
+h3 {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+article p {
+  padding-bottom: 2rem;
+}
+article a {
+  border: 1px solid #333;
+  padding: 1rem;
+  margin: 0.2rem;
+}
+.image {
+  display: none;
+}
+#contact {
+  text-align: center;
+}
+#contact p {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+#contact a {
+  border: 1px solid #333;
+  padding: 0.5rem 1rem;
+}
+#contact a i {
+  font-size: 0.7rem;
+  color: black;
+  padding-left: 0.2rem;
+}
+main {
+  padding-bottom: 2rem;
+}
+footer ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+footer li {
+  list-style: none;
+  padding: 1.5rem 0;
+}
+footer li a i {
+  font-size: 1.5rem;
+}
+footer .quote {
+  margin: 2rem 0;
+}
+footer p {
+  text-align: center;
+  padding: 0.4rem;
+}
+/*Desktop CSS*/
+@media screen and (min-width: 1024px) {
+  header {
+    background-image: url(./images/pexels-photo-461077.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  h1,
+  header a,
+  header a i {
+    color: black;
+  }
+  header a {
+    border: 1px solid black;
+  }
+  .flex {
+    display: flex;
+  }
+  .flex div {
+    width: 50%;
+  }
+ .flex .description{
+   padding: 3rem;
+ }
+ .image {
+  display: block;
+  }
+  article{
+    display: flex;
+  }
+  .details{
+    padding-top: 3rem;
+    width: 70%;
+    margin-right: .5rem;
+  }
+  .bg-flex{
+    display: flex;
+  }
+  #project .vector{
+    display: none;
+  }
+}
