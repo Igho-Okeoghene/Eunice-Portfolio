@@ -12,7 +12,7 @@ I would absolutely Love to hear from you... [Chat Me Up!](#dev)
 
 ## Overview
 
-This website was built completely with Vanilla Js and CSS. Contained in this project is a little about me, stacks I am knowledgeable about and some projects I have done.
+This website contains a little about me, programmable stacks I am knowledgeable about and some projects I have done. Yes! Check it out!
 
 ### Screenshot
 
