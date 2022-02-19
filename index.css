@@ -148,13 +148,15 @@ footer p {
   text-align: center;
   padding: 0.4rem;
 }
-.link{
+.link {
   display: flex;
-  flex-direction: column;
+}
+.details p {
+  width: 80%;
 }
 /*Desktop CSS*/
 @media screen and (min-width: 1024px) {
-  nav ul li{
+  nav ul li {
     padding-left: 2rem;
     padding-right: 0;
   }
@@ -164,29 +166,29 @@ footer p {
     background-size: cover; */
     height: 70vh;
   }
-  h1{
+  h1 {
     width: 70%;
     text-align: center;
     margin: 0 auto;
     padding: 7rem 0 3rem 0;
     font-size: 3rem;
   }
-  header a{
+  header a {
     font-size: 1.5rem;
     padding: 1.2rem;
     border: 2px solid white;
   }
-  section{
+  section {
     margin: 0 auto;
     width: 70%;
   }
-  h2{
+  h2 {
     font-size: 1.5rem;
   }
-  hr{
+  hr {
     width: 7rem;
   }
-  section img{
+  section img {
     width: 25rem;
     padding: 3rem 0;
   }
@@ -196,58 +198,58 @@ footer p {
   .flex div {
     width: 50%;
   }
- .flex .description{
-   padding: 4.5rem;
- }
- .image {
-  display: block;
+  .flex .description {
+    padding: 4.5rem;
   }
-  article{
+  .image {
+    display: block;
+  }
+  article {
     display: flex;
   }
-  .details{
-    padding-top: 5rem;
+  .details {
+    padding-top: 3.5rem;
     width: 70%;
-    margin-right: .5rem;
+    margin-right: 0.5rem;
   }
-  h3{
+  h3 {
     font-weight: 700;
   }
-  article a{
+  article a {
     border: 2px solid #333;
     font-size: 1.2rem;
   }
-  .quote blockquote{
+  .quote blockquote {
     width: 70%;
     text-align: center;
     margin: 0 auto;
   }
-  .bg-flex{
+  .bg-flex {
     display: flex;
   }
-  #project .vector{
+  #project .vector {
     display: none;
   }
-  #contact p{
+  #contact p {
     font-size: 1.3rem;
     padding-bottom: 4rem;
   }
-  #contact a{
+  #contact a {
     border: 2px solid #333;
     padding: 0.8rem 1.5rem;
   }
-  footer ul{
+  footer ul {
     width: 30%;
     margin: 0 auto;
   }
-  footer ul li a i{
+  footer ul li a i {
     font-size: 2.5rem;
   }
-  .fas.fa-arrow-right{
+  .fas.fa-arrow-right {
     font-size: 1.5rem;
     padding-left: 0.5rem;
   }
-  #contact a i{
+  #contact a i {
     font-size: 1rem;
     padding-left: 0.5rem;
   }
