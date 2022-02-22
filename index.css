@@ -107,6 +107,7 @@ article a {
   border: 1px solid #333;
   padding: 1rem;
   margin: 0.2rem;
+  border-radius: 70px;
 }
 .image {
   display: none;
