@@ -109,6 +109,9 @@ article a {
   margin: 0.2rem;
   border-radius: 70px;
 }
+article a span.hidden{
+  display: none;
+}
 .image {
   display: none;
 }
@@ -154,6 +157,11 @@ footer p {
 }
 .details p {
   width: 80%;
+}
+.fa{
+  font-size: 1.5rem;
+    color: white;
+  background-color: black;
 }
 /*Desktop CSS*/
 @media screen and (min-width: 1024px) {
