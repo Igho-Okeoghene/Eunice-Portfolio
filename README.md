@@ -28,4 +28,4 @@ This website contains a little about me, programmable stacks I am knowledgeable 
 - Website - [Okeoghene Eunice Igho](https://github.com/Igho-Okeoghene)
 - Linkedin - [Okeoghene Eunice Igho](http://www.linkedin.com/in/okeoghene-eunice-igho)
 - Twitter - [@Eunicodes](https://www.twitter.com/eunicodes)
-- Resume - [Igho Okeoghene Eunice] (https://drive.google.com/file/d/1_v8AXVqS2L9CiZQ-Uqui0bAtnCY50Le_/view?usp=sharing)
+- Resume - [Igho Okeoghene Eunice](https://drive.google.com/file/d/1_v8AXVqS2L9CiZQ-Uqui0bAtnCY50Le_/view?usp=sharing)
